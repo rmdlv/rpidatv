@@ -1027,7 +1027,7 @@ namespace rpi_omx
 		}
 
 		// -100 .. 100
-		void setContrast(OMX_U32 nPortIndex = OMX_ALL, OMX_S32 nContrast = 0)
+		void setContrast(OMX_U32 nPortIndex = OMX_ALL, OMX_S32 nContrast = 50)
 		{
 			Parameter<OMX_CONFIG_CONTRASTTYPE> contrast;
 			contrast->nPortIndex = nPortIndex;
